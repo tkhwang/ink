@@ -1,7 +1,7 @@
 ---
 ---
 
-$open-sans: 'Open Sans', sans-serif;
+$open-sans: 'Iropke Batang','Open Sans', sans-serif;
 $source-sans: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 * {
@@ -28,8 +28,8 @@ body {
 }
 
 html {
-    font-family: $source-sans;
-    font-size: 18px;
+    font-family: 'Iropke Batang', $source-sans;
+    font-size: 15px;
     font-weight: 300;
     line-height: 1.6;
     @media (min-width: 38em) {
@@ -56,7 +56,7 @@ a {
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 h2 {
@@ -65,12 +65,12 @@ h2 {
     border: 0;
     font: inherit;
     vertical-align: baseline;
-    font-weight: 800;
-    font-size: 1.6rem;
+    font-weight: 650;
+    font-size: 1.3rem;
 }
 
 h3 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 h4,
@@ -307,7 +307,7 @@ tbody tr:nth-child(odd) th {
 .profile {
     padding: 2%;
     background-repeat:no-repeat;
-    background-size: cover; 
+    background-size: cover;
     background-position:center;
     .img-circle {
         height: auto;
@@ -376,7 +376,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .posts {
-    max-width: 38rem;
+    max-width: 30rem;
     padding: 1.4rem 0.8rem;
     margin-left: auto;
     margin-right: auto;
