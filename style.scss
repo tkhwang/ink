@@ -29,7 +29,7 @@ body {
 
 html {
     font-family: 'Iropke Batang', $source-sans;
-    font-size: 15px;
+    font-size: 10px;
     font-weight: 300;
     line-height: 1.6;
     @media (min-width: 38em) {
@@ -56,7 +56,7 @@ a {
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 h2 {
@@ -66,11 +66,11 @@ h2 {
     font: inherit;
     vertical-align: baseline;
     font-weight: 650;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 h3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 h4,
@@ -172,7 +172,7 @@ blockquote {
 
 code,
 pre {
-    font-family: Menlo, Monaco, "Courier New", monospace;
+    font-family: "PT Mono", Monaco, Consolas, "Courier New", monospace;
 }
 
 code {
